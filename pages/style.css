@@ -1,0 +1,323 @@
+ul{
+    list-style: none;
+    font-size: 0;
+}
+li{
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    font-size: 15px;
+
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: end;
+}
+.underline{
+    text-decoration: none;
+}
+
+main section{
+    color: darksalmon;
+}
+main section h1 {
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid burlywood
+    }
+    .titulod{
+        font-size: 50px;  
+        font-style: inherit;
+    }
+.introservi{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.sectionp{
+    width: 90%;
+    margin: 0 auto;    
+}
+.titulo_promociones{
+    font-size: 60px;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://i.pinimg.com/564x/c6/6d/e4/c66de478c05d8558d563104500a66eff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 70px;
+    margin: 5px;
+}
+.intro_promo{
+    font-size: 10x;
+    font-style: italic
+}
+
+.flex{
+    border: px solid #555;
+    padding: 2rem;
+    min-height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flex_hijo{
+    border: px solid orange;
+    color: blue;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    width: 531px;
+    height: 150px;
+}
+.flex_hijo--1{
+    background-color: bisque;
+    align-self: center;
+    text-align: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    color: black;
+    
+}
+
+.flex_hijo--2{
+    background-color: bisque;
+    align-self: center;
+}
+.flex_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.flex_hijo--3{
+    background-color: bisque;
+    align-self: center;
+}
+.flex_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex_hijo--4{
+    background-color:paleturquoise;
+    align-self: center;
+    text-align: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    color: black;
+}
+
+.titulo_servicios{
+    font-size: 60px;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://i.pinimg.com/736x/9d/b0/6b/9db06b46bcfdc7c95003795278b34a52.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 70px;
+    margin: 5px;
+}
+.intro_servi{
+    font-size: 10x;
+    font-style: italic
+}
+
+.flex_servicios{
+    border: 2px solid #555;
+    padding: 2rem;
+    min-height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flex_servicios_hijo{
+    border: 1px solid orange;
+    color: blue;
+    text-align: center;
+    line-height: 250px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+}
+.titulo_sucursales{
+    font-size: 60px;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://i.pinimg.com/564x/11/4d/04/114d0434113d79f2ef6cc8f496114073.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 70px;
+    margin: 5px;
+}
+
+.black{
+    text-align: center;
+    margin: 15px;
+    padding: 15px; 
+}
+.titulo_galeria{
+    font-size: 60px;
+    text-align: center;
+    padding: 2rem;
+}
+.grid{
+    border: 2px solid #555;
+    margin: 3px;
+    padding: 1rem;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 100px 200px 100px;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 225px 250px 225px;
+    grid-template-columns: 25% 50% 25%;    
+    grid-template-areas: 
+    "ele1 ele2 ele3 " 
+    "ele4 ele5 ele6" 
+    "ele7 ele8 ele9";
+
+}
+.grid_hijo{
+    border: 2px solid salmon;
+    padding: 1rem;
+    text-align: center;
+}
+.grid_hijo--1{
+    background-color: aqua;
+    grid-area: ele1;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.grid_hijo--2{
+    background-color: darkgrey;
+    grid-area: ele2;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.grid_hijo--3{
+    
+    grid-area: ele3;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+    
+}
+.grid_hijo--4{
+    background-color: khaki;
+    grid-area: ele4;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.grid_hijo--5{
+    
+    grid-area: ele5;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid_hijo--6{
+    background-color: palegreen;
+    grid-area: ele6;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid_hijo--7{
+    background-color: bisque;
+    grid-area: ele7;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.grid_hijo--8{
+    background-color: lawngreen;
+    grid-area: ele8;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+  
+}
+.grid_hijo--9{
+    background-color: bisque;
+    grid-area: ele9;
+}
+.grid_hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid_sucur {
+    border: 2px solid #555;
+    margin: 3px;
+    padding: 1rem;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 300px 300px 300px ;
+    grid-template-areas: 
+    "el1 el2 el3"
+    ".   ele4 .";
+}
+.grid_sucur_hijo{
+    border: 2px solid salmon;
+    padding: 1rem;
+    text-align: center;
+}
+.grid_sucur_hijo--1{
+    background-color: aqua;
+
+}
+.grid_sucur_hijo--2{
+background-color: blueviolet;
+}
+.grid_sucur_hijo--3{
+background-color: blue;
+}
+.grid_sucur_hijo--4{
+background-color: brown;
+grid-area: ele4;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+        
+    }
+}
