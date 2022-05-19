@@ -321,3 +321,12 @@ grid-area: ele4;
         
     }
 }
+.localidades {
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+.direcciones{
+    color: black;
+    text-align: center;
+}
