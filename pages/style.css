@@ -139,25 +139,7 @@ main section h1 {
     font-style: italic
 }
 
-.flex_servicios{
-    border: 2px solid #555;
-    padding: 2rem;
-    min-height: 400px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.flex_servicios_hijo{
-    border: 1px solid orange;
-    color: blue;
-    text-align: center;
-    line-height: 250px;
-    padding: 30px;
-    width: 250px;
-    height: 250px;
-}
+
 .titulo_sucursales{
     font-size: 60px;
     text-align: center;
@@ -279,38 +261,6 @@ main section h1 {
     height: 100%;
     object-fit: cover;
 }
-.grid_sucur {
-    border: 2px solid #555;
-    margin: 3px;
-    padding: 1rem;
-    min-height: 500px;
-    display: grid;
-    grid-template-columns: 125px 125px 125px;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 300px 300px 300px ;
-    grid-template-areas: 
-    "el1 el2 el3"
-    ".   ele4 .";
-}
-.grid_sucur_hijo{
-    border: 2px solid salmon;
-    padding: 1rem;
-    text-align: center;
-}
-.grid_sucur_hijo--1{
-    background-color: aqua;
-
-}
-.grid_sucur_hijo--2{
-background-color: blueviolet;
-}
-.grid_sucur_hijo--3{
-background-color: blue;
-}
-.grid_sucur_hijo--4{
-background-color: brown;
-grid-area: ele4;
-}
 
 @media screen and (max-width: 1024px) {
     
@@ -329,4 +279,12 @@ grid-area: ele4;
 .direcciones{
     color: black;
     text-align: center;
+}
+.parrafo_servi{
+    color: black;
+    text-align: center;
+    line-height: 2;
+}
+.estilo{
+    background-color: darksalmon;
 }
