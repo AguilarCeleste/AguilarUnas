@@ -399,9 +399,6 @@ body {
 .nav_item{
   margin-left: 50px;
 }
-.buttons{
-  
-}
 
 @media screen and (max-width: 600px) {
   .navbar {
