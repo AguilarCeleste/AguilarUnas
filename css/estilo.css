@@ -42,6 +42,14 @@
   padding: 0;
   margin: 0;
 }
+
+.contenedor_iconos{
+  text-align: center;
+
+}
+.fondo{
+  background-color: rgb(255, 242, 250);
+}
 .sectionp{
   width: 90%;
   margin: 0 auto;    
