@@ -1,0 +1,134 @@
+@import "parciales/_sass-2.scss";
+
+@import "parciales/_variables.scss";
+@import "parciales/_parcial1.scss";
+@import "parciales/_galeria.scss";
+@import "parciales/_promociones.scss";
+@import "parciales/_sucursales.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .underline{
+    text-decoration: none;
+  }
+  
+ 
+    .titulod{
+        font-size: 50px;  
+        font-style: inherit;
+    }
+  
+  
+  
+  .contenedor_iconos{
+    text-align: center;
+  
+  }
+  .fondo{
+    background-color: rgb(255, 242, 250);
+  }
+  .sectionp{
+    width: 90%;
+    margin: 0 auto;    
+  }
+
+
+ 
+
+  
+
+  .estilo{
+    background-color: darksalmon;
+  }
+  
+  .whatsapp {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    bottom: 2rem;
+    right: 2rem;
+    position: fixed;
+  }
+  
+  .Comodidad {
+    font-size: 20x;
+    font-style: italic;
+  }
+  
+  .Titulo {
+    font-size: 50px;
+    font-style: inherit;
+  }
+  
+  .parallax {
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 70px;
+    background-image: url(https://www.eurostil.com/wp-content/uploads/2020/03/consejos-para-cuidar-us-un%CC%83as.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @font-face {
+    font-family: "static";
+    src: url(static);
+  }
+  
+  .Reserva {
+    font-size: 30px;
+    color: darksalmon;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  
+  
+  body {
+    font-family: "static";
+  }
+  
+  
+  
+  .parrafo {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .introduccion {
+    font-size: 21px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px;
+  }
+  
+
+ 
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  
+  .elementos {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  
+  .enviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-color: salmon;
+    padding: 5px;
+    margin: 5px;
+    
+  }

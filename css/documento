@@ -368,6 +368,17 @@ li {
 }
 
 
+.whatsapp {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  bottom: 2rem;
+  right: 2rem;
+  position: fixed;
+}
+
 * {
   padding: 0%;
   margin: 0%;

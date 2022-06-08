@@ -9,13 +9,13 @@
     margin-top: 10px;
     padding: 70px;
     margin: 5px;
-}
-.intro_promo{
+  }
+  .intro_promo{
     font-size: 10x;
     font-style: italic
-}
-
-.flex{
+  }
+  
+  .flex{
     border: px solid #555;
     padding: 2rem;
     min-height: 400px;
@@ -24,8 +24,8 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-.flex_hijo{
+  }
+  .flex_hijo{
     border: px solid orange;
     color: blue;
     text-align: center;
@@ -33,43 +33,43 @@
     padding: 20px;
     width: 531px;
     height: 150px;
-}
-.flex_hijo--1{
+  }
+  .flex_hijo--1{
     background-color: bisque;
     align-self: center;
     text-align: center;
     text-align: center;
     font-size: 18px;
     line-height: 2;
-    color: $color-principal;
+    color: black;
     
-}
-
-.flex_hijo--2{
+  }
+  
+  .flex_hijo--2{
     background-color: bisque;
     align-self: center;
-}
-.flex_hijo img{
+  }
+  .flex_hijo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
-}
-.flex_hijo--3{
+  
+  }
+  .flex_hijo--3{
     background-color: bisque;
     align-self: center;
-}
-.flex_hijo img{
+  }
+  .flex_hijo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.flex_hijo--4{
+  }
+  .flex_hijo--4{
     background-color:paleturquoise;
     align-self: center;
     text-align: center;
     text-align: center;
     font-size: 18px;
     line-height: 2;
-    color: $color-principal;
-}
+    color: black;
+  }
