@@ -6,7 +6,25 @@
 .underline{
   text-decoration: none;
 }
+.fondo--inicio{
+  background-image: url(../imagenes/inicio-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fondo--galeria{
+  background-image: url(../imagenes/fondo-servi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.fw-bold{
+  color: black;
+  text-align: center;
+}
 .header{
 
   display: flex;
@@ -52,6 +70,7 @@
 .fondo{
   background-color: rgb(255, 242, 250);
 }
+
 .sectionp{
   width: 90%;
   margin: 0 auto;    
@@ -135,8 +154,8 @@
 .titulo_servicios{
   font-size: 60px;
   text-align: center;
-  padding: 2rem;
-  background-image: url(https://i.pinimg.com/736x/9d/b0/6b/9db06b46bcfdc7c95003795278b34a52.jpg);
+
+  background-image: url(../imagenes/portada-servi.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,16 +330,62 @@
   font-size: 50px;
   font-style: inherit;
 }
+.row--fondo-1{
+  background-image: url(../imagenes/row-fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+
+}
+.row--fondo-5{
+  background-image: url(../imagenes/row-fondo5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+ 
+}
+.row--fondo-3{
+  background-image: url(../imagenes/row-fondo3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+
+}
+.row--fondo-4{
+  background-image: url(../imagenes/row-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+}
+.row--fondo-2{
+  background-image: url(../imagenes/portada-final.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+}
+.row--fondo-6{
+  background-image: url(../imagenes/row-fondo6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   border-radius: 30px;
+}
 
 .parallax {
   color: black;
   margin-top: 10px;
   font-size: 25px;
   padding: 70px;
-  background-image: url(../imagenes/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+
 }
 
 @font-face {
@@ -465,7 +530,7 @@ li {
     display: block;
   }
   .Reserva{
-    font-size: 20px;
+    font-size: 15Px;
     margin: 10px;
     padding: 10px;
   }
@@ -570,4 +635,18 @@ li {
   margin: 0px;
   padding: 0px;
 }
+.Titulo{
+  font-size: 33px;
+  color: white;
+}
+.fondo--inicio{
+    background-image: url(../imagenes/inicio-responsive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .parallax{
+    background-image: none;
+  }
 }
