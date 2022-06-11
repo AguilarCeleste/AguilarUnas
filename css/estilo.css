@@ -6,6 +6,7 @@
 .underline{
   text-decoration: none;
 }
+
 .fondo--inicio{
   background-image: url(../imagenes/inicio-fondo.jpg);
   background-position: center;
@@ -79,7 +80,7 @@
   font-size: 60px;
   text-align: center;
   padding: 2rem;
-  background-image: url(https://i.pinimg.com/564x/c6/6d/e4/c66de478c05d8558d563104500a66eff.jpg);
+  background-image: url(../imagenes/fondo--promo2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +108,7 @@
   color: blue;
   text-align: center;
   line-height: 150px;
-  padding: 20px;
+  padding: 10px;
   width: 531px;
   height: 150px;
 }
@@ -116,7 +117,7 @@
   align-self: center;
   text-align: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2;
   color: black;
   
@@ -146,7 +147,7 @@
   align-self: center;
   text-align: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 2;
   color: black;
 }
@@ -154,15 +155,19 @@
 .titulo_servicios{
   font-size: 60px;
   text-align: center;
-
-  background-image: url(../imagenes/portada-servi.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-color: transparent;
   margin-top: 10px;
   padding: 70px;
   margin: 5px;
 }
+.fondo--servicios{
+  background-image: url(../imagenes/fondo--servicios.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .intro_servi{
   font-size: 10x;
   font-style: italic
@@ -355,24 +360,16 @@
 
 }
 .row--fondo-4{
-  background-image: url(../imagenes/row-4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-color: transparent;
    border-radius: 30px;
 }
 .row--fondo-2{
-  background-image: url(../imagenes/portada-final.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: transparent;
    border-radius: 30px;
 }
 .row--fondo-6{
-  background-image: url(../imagenes/row-fondo6.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: transparent;
+
    border-radius: 30px;
 }
 
