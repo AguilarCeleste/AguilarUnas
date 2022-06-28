@@ -1,21 +1,53 @@
+.introservi{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+
+}
 .titulo_servicios{
-    font-size: 60px;
-    text-align: center;
-    padding: 2rem;
-    background-image: url(https://i.pinimg.com/736x/9d/b0/6b/9db06b46bcfdc7c95003795278b34a52.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 10px;
-    padding: 70px;
-    margin: 5px;
-  }
-  .intro_servi{
-    font-size: 10x;
-    font-style: italic
-  }
-  .parrafo_servi{
-    color: black;
-    text-align: center;
-    line-height: 2;
-  }
+  font-size: 80px;
+  text-align: center;
+ background-color: transparent;
+  margin-top:auto;
+  padding: 80px;
+  font-family: 'Stick No Bills', sans-serif;
+ 
+}
+.subtitulo_servicios{
+  font-family: 'Neucha', cursive;
+  color:#000000
+}
+.manicure_servicios{
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  font-family: 'Righteous', cursive;
+}
+.mimate_servicios{
+  -webkit-text-stroke:1px;
+  -webkit-text-stroke-color:rgb(0, 0, 0);
+  font-size: 85px;
+  text-align: center;
+  color: #b90000;
+  font-family: 'Kaushan Script', cursive
+}
+.servicio_columnas{
+  margin: 20px;
+}
+.fondo--servicios{
+  background-color: transparent;
+
+}
+.parallax_servicios{
+  background-image: url(../imagenes/fondo_servicios_final.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 55px;
+  padding: 9%;
+ margin-top: auto;
+  width: 100%;
+  height: 100%;
+  animation-duration: 4s;
+}

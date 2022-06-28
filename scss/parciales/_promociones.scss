@@ -1,75 +1,96 @@
-.titulo_promociones{
-    font-size: 60px;
+.promociones{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-items: center;
+ margin: 20px;
+ animation-duration: 5s;
+}
+.descuento_dias{
+  font-size: 50px;
+  color: #000000;
+    line-height: 1.5;
     text-align: center;
-    padding: 2rem;
-    background-image: url(https://i.pinimg.com/564x/c6/6d/e4/c66de478c05d8558d563104500a66eff.jpg);
-    background-position: center;
+    font-family: 'Righteous', cursive;
+  }
+  .descuento_parrafo{
+    font-size: 25px;
+    line-height: 2px;
+    text-align: center;
+    color: #b90000;
+    font-family: 'Neucha', cursive;;
+  }
+  .fondo--promo{
+    background-color: rgb(165, 142, 142);
+  }
+  .titulo_promociones{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    -webkit-text-stroke:2px;
+    -webkit-text-stroke-color:#b90000;
+   
+  }
+  .descuento_promociones{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 25px;
+  color: #d40000;
+  -webkit-text-stroke:0.5px;
+  -webkit-text-stroke-color:#ffffff;
+  }
+  .parallax_promociones{
+    background-image: url(../imagenes/fondo-pantalla-promo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10px;
-    padding: 70px;
-    margin: 5px;
-  }
-  .intro_promo{
-    font-size: 10x;
-    font-style: italic
-  }
-  
-  .flex{
-    border: px solid #555;
-    padding: 2rem;
-    min-height: 400px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  .flex_hijo{
-    border: px solid orange;
-    color: blue;
-    text-align: center;
-    line-height: 150px;
-    padding: 20px;
-    width: 531px;
-    height: 150px;
-  }
-  .flex_hijo--1{
-    background-color: bisque;
-    align-self: center;
-    text-align: center;
-    text-align: center;
-    font-size: 18px;
-    line-height: 2;
-    color: black;
-    
-  }
-  
-  .flex_hijo--2{
-    background-color: bisque;
-    align-self: center;
-  }
-  .flex_hijo img{
+    background-attachment: fixed;
+    background-position: center;
+  padding: 5%;
+   margin-top: auto;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-  
+    animation-duration: 4s;
   }
-  .flex_hijo--3{
-    background-color: bisque;
-    align-self: center;
+  .regala_promociones{
+    font-size: 65px;
+   font-family: 'Kalam', cursiva;
+   color: #000000;
   }
-  .flex_hijo img{
+  .titulo_promociones{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    -webkit-text-stroke:2px;
+    -webkit-text-stroke-color:#b90000;
+   
+  }
+  .descuento_promociones{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 25px;
+  color: #d40000;
+  -webkit-text-stroke:0.5px;
+  -webkit-text-stroke-color:#ffffff;
+  }
+  .parallax_promociones{
+    background-image: url(../imagenes/fondo-pantalla-promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  padding: 5%;
+   margin-top: auto;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    animation-duration: 4s;
   }
-  .flex_hijo--4{
-    background-color:paleturquoise;
-    align-self: center;
-    text-align: center;
-    text-align: center;
-    font-size: 18px;
-    line-height: 2;
-    color: black;
+  .regala_promociones{
+    font-size: 65px;
+   font-family: 'Kalam', cursiva;
+   color: #000000;
   }

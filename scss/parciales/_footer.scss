@@ -4,3 +4,77 @@
     padding: 15px; 
     
   }
+  .footer{
+    background-color:rgb(8, 8, 8);
+   margin-top: auto;
+  }
+  
+  .footer__redes{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+     align-items: center;
+  
+  }
+  .parrafo_redes{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #fcb8be;
+    animation-duration: 4s;
+  }
+
+  
+  .footer__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+    font-size: 25px;
+  }
+  
+.contenedor_iconos{
+  text-align: center;
+  padding: 35px;
+  margin: 0px;
+  width: auto;
+
+}
+.footer__redes1{
+  text-align: center;
+}
+
+.footer_iconos{
+  font-size: 35px;
+  text-align: center;
+  color: #e80216;
+
+ 
+}
+.fondo_footer{
+  
+    font-size: 60px;
+    text-align: center;
+    background-image: url(../imagenes/fondo--servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+.footer_medios{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  
+}
+.footer_parrafos{
+font-size: 15px;
+text-align: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 2;
+
+}

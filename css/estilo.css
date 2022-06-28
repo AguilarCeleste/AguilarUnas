@@ -1,12 +1,46 @@
 *{
   padding: 0;
   margin: 0;
-  text-align: left;
+
+}
+.clearfix{
+ height: auto;
+  width: 100%;
+ justify-content: space-between;
+ animation-duration: 4s;
+}
+.descuento{
+  font-size: 40px;
+  color: white;
+  background-color: #e80216;
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  max-width: 250px;
+  min-width: 200px;
+  border: 2px solid;
+  height: auto;
+  width: 100%;
+  position: relative;
+ 
+}
+.primera_visita{
+  color: rgb(255, 255, 255);
+  font-family: 'Yellowtail', cursive;
+  font-size: 55px;
+  -webkit-text-stroke:1px;
+  -webkit-text-stroke-color:#000000;
+}
+.border-0{
+text-align: center;
 }
 .underline{
   text-decoration: none;
-}
+  color: rgb(158, 31, 31);
+  font-family: 'Raleway', sans-serif;
 
+}
 .fondo--inicio{
   background-image: url(../imagenes/inicio-fondo.jpg);
   background-position: center;
@@ -23,24 +57,38 @@
 }
 
 .fw-bold{
-  color: black;
+ 
   text-align: center;
 }
-.header{
+.jam-facebook{
+  color: white;
+}
+.jam-instagram{
+  color: white;
+}
+.jam-whatsapp{
+   color: white;
+}
+.jam_redes{
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  margin: 10px;
+}
 
-  display: flex;
-  margin: 30px;
-  padding: 15px;
-  border: 5px solid burlywood;
+.header{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  color: darksalmon;
+  justify-content:space-between;
+background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: auto;
 
 }
 .nav_p{
-  display: flex;
- 
+padding: 1rem;
 }
 .navbar{
   list-style: none;
@@ -49,12 +97,48 @@
   justify-content: space-between;
 }
 .nav_item{
-  margin-left: 50px;
-  color: black;
+
+margin-left: 25px;
+
+}
+.marca{
+  font-size: 70px;
+  font-family: 'Yellowtail', cursive;
+  color: #e80216;
+  margin-top: auto;
+  
+}
+.footer{
+  background-color:rgb(8, 8, 8);
+ margin-top: auto;
+}
+
+.footer__redes{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+   align-items: center;
+
+}
+.parrafo_redes{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #fcb8be;
+  animation-duration: 4s;
+}
+
+.footer__contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-end;
+  font-size: 25px;
 }
   .titulod{
       font-size: 50px;  
       font-style: inherit;
+
   }
 .introservi{
   font-size: 20px;
@@ -66,397 +150,427 @@
 
 .contenedor_iconos{
   text-align: center;
+  padding: 35px;
+  margin: 0px;
+  width: auto;
 
 }
 .fondo{
-  background-color: rgb(255, 242, 250);
-}
-
-.sectionp{
-  width: 90%;
-  margin: 0 auto;    
-}
-.titulo_promociones{
-  font-size: 60px;
-  text-align: center;
-  padding: 2rem;
-  background-image: url(../imagenes/fondo--promo2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 10px;
-  padding: 70px;
-  margin: 5px;
-}
-.intro_promo{
-  font-size: 10x;
-  font-style: italic
-}
-
-.flex{
-  border: px solid #555;
-  padding: 2rem;
-  min-height: 400px;
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.flex_hijo{
-  border: px solid orange;
-  color: blue;
-  text-align: center;
-  line-height: 150px;
-  padding: 10px;
-  width: 531px;
-  height: 150px;
-}
-.flex_hijo--1{
-  background-color: bisque;
-  align-self: center;
-  text-align: center;
-  text-align: center;
-  font-size: 15px;
-  line-height: 2;
-  color: black;
-  
-}
-
-.flex_hijo--2{
-  background-color: bisque;
-  align-self: center;
-}
-.flex_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-}
-.flex_hijo--3{
-  background-color: bisque;
-  align-self: center;
-}
-.flex_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.flex_hijo--4{
-  background-color:paleturquoise;
-  align-self: center;
-  text-align: center;
-  text-align: center;
-  font-size: 15px;
-  line-height: 2;
-  color: black;
+  background-color: white;
 }
 
 .titulo_servicios{
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
  background-color: transparent;
-  margin-top: 10px;
-  padding: 70px;
-  margin: 5px;
+  margin-top:auto;
+  padding: 80px;
+  font-family: 'Stick No Bills', sans-serif;
+ 
+}
+.subtitulo_servicios{
+  font-family: 'Neucha', cursive;
+  color:#000000
+}
+.manicure_servicios{
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  font-family: 'Righteous', cursive;
+}
+.mimate_servicios{
+  -webkit-text-stroke:1px;
+  -webkit-text-stroke-color:rgb(0, 0, 0);
+  font-size: 85px;
+  text-align: center;
+  color: #b90000;
+  font-family: 'Kaushan Script', cursive
+}
+.servicio_columnas{
+  margin: 20px;
+}
+.promociones{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-items: center;
+ margin: 20px;
+ animation-duration: 5s;
+}
+.descuento_dias{
+font-size: 50px;
+color: #000000;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+.descuento_parrafo{
+  font-size: 25px;
+  line-height: 2px;
+  text-align: center;
+  color: #b90000;
+  font-family: 'Neucha', cursive;;
 }
 .fondo--servicios{
-  background-image: url(../imagenes/fondo--servicios.jpg);
-  background-position: center;
+  background-color: transparent;
+
+}
+.fondo--promo{
+  background-color: rgb(165, 142, 142);
+}
+.div_padre{
+
+  margin-top: 50px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  
+}
+.div_hijo{
+  display: inline-block;
+  width: 400px;
+  height: 370px;
+  margin: 20px;
+
+}
+.galeria{
+  height: 100%;
+  width: 100%;
+  display: inline;
+  transition: all 500ms ease;
+  border-radius: 5px;
+ box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.50);
+ 
+}
+.galeria_servicios{
+  height: 100%;
+  width: 100%;
+  display: inline;
+  border-radius: 5px;
+ justify-content: center;
+ animation-duration: 4s;
+
+
+ 
+}
+.galeria:hover{
+  transform: scale(1.2);
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.galeria_carru1{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  overflow: hidden; 
+  
+}
+.galeria_carru1_2{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+ 
+}
+.galeria_carru{
+
+  display: flex; 
+   width: 550px;
+  height: 550px; 
+   overflow: hidden;
+}
+.clearfix_galeria{
+  text-align: center;
+  font-size: 20px;
+ justify-items:flex-end;
+ margin-top: auto;
+}
+
+
+.titulo_mimo{
+  text-align: center;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+
+
+}
+.clearfix_galeria2{
+  width: 200px;
+  height: 250x;
+  margin: 35px;
+ animation-duration: 4s;
+
+}
+.parrafo_galeria{
+  width: 400px;
+  height: 600px;
+  margin-top: auto;
+
+}
+
+.card-text{
+  line-height: 2.5;
+
+}
+.card{
+  background-color: rgb(243, 224, 194);
+  justify-content: center;
+  align-items: center;
+}
+.card-img-top {
+ transition: all 500ms ease;
+ width: 325px;
+ height: 290px;
+margin-top: auto;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
+ box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.50);
+ 
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+
+
+.titulo_promociones{
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  color: white;
+  -webkit-text-stroke:2px;
+  -webkit-text-stroke-color:#b90000;
+ 
+}
+.descuento_promociones{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+font-size: 50px;
+padding: 25px;
+color: #d40000;
+-webkit-text-stroke:0.5px;
+-webkit-text-stroke-color:#ffffff;
+}
+.parallax_promociones{
+  background-image: url(../imagenes/fondo-pantalla-promo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.intro_servi{
-  font-size: 10x;
-  font-style: italic
-}
-
-.titulo_sucursales{
-  font-size: 60px;
-  text-align: center;
-  padding: 2rem;
-  background-image: url(https://i.pinimg.com/564x/11/4d/04/114d0434113d79f2ef6cc8f496114073.jpg);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 10px;
-  padding: 70px;
-  margin: 5px;
+padding: 5%;
+ margin-top: auto;
+  width: 100%;
+  height: 100%;
+  animation-duration: 4s;
 }
+.regala_promociones{
+  font-size: 65px;
+ font-family: 'Kalam', cursiva;
+ color: #000000;
+}
+c
+.titulo_sucursales{
+background-image: url(../imagenes/parallax_sucursales.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  padding: 10%;
+   margin-top: auto;
+    width: 100%;
+    height: 100%;
+    animation-duration: 4s;
+    font-size: 80px;
+    color: #000000;
+    text-align: end;
+    font-family: 'Rubik Moonrocks', cursive;
+  }
 
 .black{
   text-align: center;
   margin: 15px;
   padding: 15px; 
-  
+  color: #fcb8be;
 }
 .titulo_galeria{
-  font-size: 60px;
-  text-align: center;
-  padding: 2rem;
-}
-.grid{
-  border: 2px solid #555;
-  margin: 3px;
-  padding: 1rem;
-  min-height: 700px;
-  display: grid;
-  grid-template-columns: 100px 200px 100px;
-  grid-template-columns: 25% 50% 25%;
-  grid-template-rows: 225px 250px 225px;
-  grid-template-columns: 25% 50% 25%;    
-  grid-template-areas: 
-  "ele1 ele2 ele3 " 
-  "ele4 ele5 ele6" 
-  "ele7 ele8 ele9";
-
-}
-.grid_hijo{
-  border: 2px solid salmon;
-  padding: 1rem;
-  text-align: center;
-}
-.grid_hijo--1{
-  background-color: aqua;
-  grid-area: ele1;
-  text-align: center;
-  font-size: 25px;
-  line-height: 2;
-}
-.grid_hijo--2{
-  background-color: darkgrey;
-  grid-area: ele2;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.grid_hijo--3{
-  
-  grid-area: ele3;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-  
-}
-.grid_hijo--4{
-  background-color: khaki;
-  grid-area: ele4;
-  text-align: center;
-  font-size: 25px;
-  line-height: 2;
-}
-.grid_hijo--5{
-  
-  grid-area: ele5;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.grid_hijo--6{
-  background-color: palegreen;
-  grid-area: ele6;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.grid_hijo--7{
-  background-color: bisque;
-  grid-area: ele7;
-  text-align: center;
-  font-size: 25px;
-  line-height: 2;
-}
-.grid_hijo--8{
-  background-color: lawngreen;
-  grid-area: ele8;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-
-}
-.grid_hijo--9{
-  background-color: bisque;
-  grid-area: ele9;
-}
-.grid_hijo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    background-image: url(../imagenes/fondo_galeria.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      padding: 10%;
+       margin-top: auto;
+        width: 100%;
+        height: 100%;
+        animation-duration: 4s;
+        font-size: 100px;
+        color: #000000;
+        text-align: end;
+        font-family: 'Neucha', cursive;
+      }
 
 
 .localidades {
   color: black;
   text-align: center;
-  margin: 15px;
+  margin: 10px;
+  font-family: 'Kalam', cursive;
+
 }
+.detalle_sucursales{
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  
+}
+.fondo--sucursales{
+  background-color: #ffeeee;
+}
+
 .direcciones{
   color: black;
   text-align: center;
+
 }
-.parrafo_servi{
-  color: black;
+
+.footer__redes1{
   text-align: center;
-  line-height: 2;
-}
-.estilo{
-  background-color: darksalmon;
 }
 
-.whatsapp {
-  background-color: green;
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  bottom: 2rem;
-  right: 2rem;
-  position: fixed;
-}
+.footer_iconos{
+  font-size: 35px;
+  text-align: center;
+  color: #e80216;
 
-.Comodidad {
-  font-size: 20x;
-  font-style: italic;
-}
-
-.Titulo {
-  font-size: 50px;
-  font-style: inherit;
-}
-.row--fondo-1{
-  background-image: url(../imagenes/row-fondo2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   border-radius: 30px;
-
-}
-.row--fondo-5{
-  background-image: url(../imagenes/row-fondo5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   border-radius: 30px;
  
 }
-.row--fondo-3{
-  background-image: url(../imagenes/row-fondo3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   border-radius: 30px;
-
-}
-.row--fondo-4{
- background-color: transparent;
-   border-radius: 30px;
-}
-.row--fondo-2{
-  background-color: transparent;
-   border-radius: 30px;
-}
-.row--fondo-6{
-  background-color: transparent;
-
-   border-radius: 30px;
-}
-
-.parallax {
-  color: black;
-  margin-top: 10px;
-  font-size: 25px;
-  padding: 70px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.fondo_footer{
   
+    font-size: 60px;
+    text-align: center;
+    background-image: url(../imagenes/fondo--servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
 
 }
+.footer_medios{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  
+}
+.footer_parrafos{
+font-size: 15px;
+text-align: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 2;
+
+}
+.parallax_fondo{
+  background-image: url(../imagenes/foto_portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 55px;
+  padding: 9%;
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+
+  
+}
+.inicio_parrafo{
+  font-size: 60px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.parallax{
+  background-image: url(../imagenes/unas_rojas.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 55px;
+  padding: 9%;
+ margin-top: auto;
+  width: 100%;
+  height: 100%;
+  animation-duration: 4s;
+
+}
+.parallax_servicios{
+  background-image: url(../imagenes/fondo_servicios_final.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 55px;
+  padding: 9%;
+ margin-top: auto;
+  width: 100%;
+  height: 100%;
+  animation-duration: 4s;
+}
+.comodidad {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Stick No Bills', sans-serif;
+  color: #f8f8f8;
+  -webkit-text-stroke:0.5px;
+  -webkit-text-stroke-color:#e80216;
+  
+}
+
+.titulo{
+  font-size: 90px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Kaushan Script', cursive;
+  -webkit-text-stroke:1.5px;
+  -webkit-text-stroke-color:#070606;
+}
+
 
 @font-face {
   font-family: "static";
   src: url(static);
 }
 
-.Reserva {
-  font-size: 30px;
-  color: darksalmon;
+.reserva {
+  font-size: 25px;
+  color: rgb(247, 247, 247);
   margin: 20px;
   padding: 20px;
-}
-
-
-
-body {
-  font-family: "static";
-}
-
-
-
-.parrafo {
-  text-align: justify;
-  line-height: 1.5;
-}
-
-.introduccion {
-  font-size: 21px;
+  background-color: #e80216;
   text-align: center;
-  line-height: 1.5;
-  margin: 15px;
-}
-
-ul {
-  list-style: none;
-  font-size: 0;
-}
-
-li {
-  display: inline-block;
-  width: 10%;
-  position: relative;
-  font-size: 15px;
-}
-
-
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
-
-.elementos {
-  justify-content: center;
-  display: flex;
-  font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-}
-
-.enviar {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 24px;
-  background-color: salmon;
-  padding: 5px;
-  margin: 5px;
   
 }
+
 .header_iconos{
   display: none;
 }
 .nav_item--close{
   display: none;
+}
+.fondo--inicio{
+  background-image: none;
 }
 @media screen and (max-width: 1023px) {
   .header{
@@ -466,59 +580,26 @@ li {
     flex-direction: column;
     text-align: center;
   } 
-  .grid{
-    grid-template-columns: repeat(3, 1fr);
-    font-size: 15px;
-  
-  }
-  .grid_hijo--4{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .grid_hijo--1{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .grid_hijo--7{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .grid_hijo--2{
+  .header_logo{
     text-align: center;
-    justify-content: center;
   }
-  .flex{
-    height: 100%;
-    justify-content: center;
-  }
-  .flex_hijo--1{
-   
-    font-size: 25px;
-  }
-  .flex_hijo--2{
-    display: none;
-  }
-  .flex_hijo--3{
-    display: none;
-  }
-  .flex_hijo--4{
-    
-    font-size: 15px;
-  }
-  }
+}
 
 @media screen and (max-width: 600px) {
   .nav_p {
       display: none;
-
+      
       
   }
+ .fondo{
+  position: static;
+ }
   .header{
     flex-direction: row;
   }
   .header_iconos{ 
     display: block;
-    font-size: 15px;
+    font-size: 40px;
     color: brown;
     
 
@@ -558,9 +639,15 @@ li {
    font-size: 20px;
  }
  .titulo_servicios{
-   font-size: 30px;
+   font-size: 100px;
    text-align: center;
-   
+ }
+ .mimate_servicios{
+  font-size: 20px;
+
+ }
+ .subtitulo_servicios{
+  font-size: 15px;
  }
  .parrafo_servi{
    justify-content: center;
@@ -571,69 +658,14 @@ li {
    text-align: center;
    background-image: none;
    }
-.flex_hijo--3{
-  display: none;
-}
-.flex_hijo--2{
-  display: none;
-}
-.flex_hijo--1{
-  font-size: 15px;
-  align-items: center;
-  flex-direction:row;
-  background-color: none;
-}
-.flex_hijo--4{
-  background-color: none;
-}
+
 .titulo_sucursales{
   font-size: 30px;
   text-align: center;
 }
-.grid{
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(9, 200px);
-  grid-template-areas:
-  "ele1"
-  "ele2"
-  "ele3"
-  "ele4"
-  "ele5"
-  "ele6"
-  "ele7"
-  "ele8"
-  "ele9"
-  ;
-}
-.grid_hijo--4{
-  font-size: 20px;
-}
-.prommm{
-  font-size: 15px;
-  align-items: center;
-}
-.flex{
-  height: 100%;
-  flex-direction: row;
-  margin-top: 0px;
 
-}
-.fondo--promo{
-  background-image: url(../imagenes/fondo--promo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.flex_hijo{
-  background-color: transparent;
-  height: 100%;
-  flex-direction: row;
-  margin: 0px;
-  padding: 0px;
-}
-.Titulo{
-  font-size: 33px;
+.titulo{
+  font-size: 50px;
   color: white;
 }
 .fondo--inicio{
@@ -646,4 +678,68 @@ li {
   .parallax{
     background-image: none;
   }
+  .marca{
+    font-size: 35px;
+    flex-direction: column;
+  }
+  .titulo_galeria{
+    font-size: 50px;
+  }
+  .footer{
+    background-color:rgb(8, 8, 8);
+  flex-direction: column;
+   gap: 40px;
+  }
+  
+  .footer__redes{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+     align-items: center;
+  
+  }
+  .footer_medios{
+    font-size: 10px;
+    display: none;
+  }
+  .parrafo_redes{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    color: #fcb8be;
+  }
+  .footer_parrafos{
+    font-size: 10px;
+  }
+  
+  .footer__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+    font-size: 4px;
+  }
+  .mail{
+    display: none;
+  }
+  .inicio_parrafo{
+    font-size: 30px;
+  }
+  .clearfix{
+    display: none;
+  }
+ .promociones{
+  font-size: 15px;
+ }
+ .div_hijo{
+  height: 300px;
+margin: 15px;
+width: 280px;
+ }
+ .descuento_dias{
+  font-size: 20px;
+ }
+ .descuento_parrafo{
+  font-size: 15px;
+ }
 }
